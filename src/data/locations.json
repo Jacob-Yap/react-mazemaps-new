@@ -1,0 +1,116 @@
+{
+    "LTB": {
+        "title": "Firepit",
+        "summary": "Smoking ceremony",
+        "description": "Smoking ceremony",
+        "lng": 145.13278060280857,
+        "lat": -37.913076644295764,
+        "lnglat": [145.13278060280857, -37.913076644295764],
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "image": "./images/firepit.jpg"
+    },
+    "wominjeka": {
+        "title": "Wominjeka Writing",
+        "summary": "Welcome to Country",
+
+        "description": "Welcome to Country",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "image": "./images/womindjika.jpg"
+    },
+    "chancelleryPillar": {
+        "title": "Chancellery Pillar",
+        "summary": "Indigenous textures",
+        "description": "Chancellery pillar textures",
+        "lng": 145.13454580933677,
+        "lat": -37.91235021393629,
+        "lnglat": [145.13454580933677, -37.91235021393629],
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "image": "./images/chancelleryPillar.jpg"
+    },
+    "mrsHalls": {
+        "title": "MRS Halls - Briggs and Jackomos Halls",
+        "summary": "MRS Halls",
+
+        "description": "Briggs and Jackomos Halls",
+        "lng": 145.13916948116184,
+        "lat": -37.910329158577774,
+        "lnglat": [145.13916948116184, -37.910329158577774],
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "image": "./images/mrsHalls.jpg"
+    },
+    "communityGarden": {
+        "title": "Old Man Weed (Gukwonderuk)",
+        "summary": "Indigenous plant",
+        "description": "Used as a tea to treat coughs and colds",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "lng": 145.1318498850968,
+        "lat": -37.91167377530547,
+        "lnglat": [145.1318498850968, -37.91167377530547]
+    },
+    "mathesonLibrary": {
+        "title": "Spear Display",
+        "summary": "Handcrafted indigenous hunting spears",
+        "description": "Handcrafted indigenous hunting spears",
+        "lng": 145.13433289910176,
+        "lat": -37.91301299847796,
+        "lnglat": [145.13433289910176, -37.91301299847796],
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "image": "./images/spearDisplay.jpg"
+    },
+    "castanLawCentre": {
+        "title": "Mabo Ruling",
+        "summary": "Rob Catan",
+
+        "description": "Rob Casten, who the Castan Centre for Human Rights Law was named after, reversed the concept of Ausrtralia 'Terra Nullius' or land belonging to no one prior to colonisation",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/"
+    },
+    "lemonScentedLawn": {
+        "title": "Indigenous Trees",
+        "summary": "Gum treess",
+        "description": "Gum trees",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "lng": 145.1334107614092,
+        "lat": -37.91086726803046,
+        "lnglat": [145.1334107614092, -37.91086726803046],
+        "image": "./images/lemonScentedTrees.jpg"
+    },
+    "greenChemicalFutures": {
+        "title": "FTIR Rock Dating",
+        "summary": "Rocks",
+
+        "description": "From GCF First Lab",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "lng": 145.130879,
+        "lat": -37.909426,
+        "lnglat": [145.130879, -37.909426],
+        "image": "./images/rockDating.jpg"
+    },
+    "MISC": {
+        "title": "Monash Indigenous Studies Centre (MISK)",
+        "summary": "language videos",
+
+        "description": "language videos",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/"
+    },
+    "mainEntrance": {
+        "title": "Aboriginal and Torress Islander Flags",
+        "summary": "Flags",
+
+        "description": "Flags are lowered at hald mast (National Sorry Day) and raised again",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "lng": 145.1349883334642,
+        "lat": -37.91447427507996,
+        "lnglat": [145.1349883334642, -37.91447427507996],
+        "image": "./images/flags.jpg"
+    },
+    "scarTree": {
+        "title": "Scar Tree",
+        "summary": "Tree",
+        "description": "Used to make canoes, shelters, weapons etc.",
+        "link": "https://esol-michelle-chen.github.io/MonkeyPox/",
+        "lng": 145.13698148394704,
+        "lat": -37.907652414582756,
+        "lnglat": [145.13698148394704, -37.907652414582756],
+        "image": "./images/scarTree.jpg"
+    }
+}

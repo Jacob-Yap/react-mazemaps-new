@@ -1,0 +1,6 @@
+.Sidebar {
+  position: absolute;
+  z-index: 1;
+  padding-top: 30px;
+  padding-left: 30px;
+}
