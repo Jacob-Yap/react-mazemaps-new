@@ -7,7 +7,7 @@ import ListGroup from "react-bootstrap/ListGroup"
 import SidebarLocationButton from "./SidebarLocationButton"
 import SearchBar from "./SearchBar"
 import DotMarker from "./DotMarker"
-import LocationsContext from "../contexts/LocationsContext"
+// import LocationsContext from "../contexts/LocationsContext"
 
 function Sidebar(props) {
     // const { locations } = useContext(LocationsContext)

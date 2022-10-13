@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import "../css/App.css"
 import locations from "../data/locations.json"
 import Sidebar from "./Sidebar.js"
+import SearchBar from "./SearchBar"
 import Button from "react-bootstrap/Button"
 // import LocationsContextProvider from "../contexts/LocationsContext"
 
@@ -74,7 +75,7 @@ function App() {
                 center: { lng: 145.1327, lat: -37.9131 },
                 zoom: 16,
                 zLevel: 1,
-                zLevelControl: false,
+                zLevelControl: true,
                 scrollZoom: true,
                 doubleClickZoom: true,
                 touchZoomRotate: true,
