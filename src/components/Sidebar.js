@@ -37,21 +37,27 @@ function Sidebar(props) {
         <div className="Sidebar">
             {/* <Button variant="dark" onClick={handleShow}>
                 Menu
+            </Button>
+            <Button variant="dark" onClick={searchMenuOpen}>
+                Search
             </Button> */}
             <Button variant="dark" onClick={locMenuOpen}>
-                AR Walk Locations
+                Locations
             </Button>
+
+
+
             <Offcanvas show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title>Menu</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <ListGroup defaultActiveKey="#link1">
-                        <ListGroup.Item action onClick={locMenuOpen}>
-                            Locations
-                        </ListGroup.Item>
                         <ListGroup.Item action onClick={searchMenuOpen}>
                             Search
+                        </ListGroup.Item>
+                        <ListGroup.Item action onClick={locMenuOpen}>
+                            Locations
                         </ListGroup.Item>
                         {/* <ListGroup.Item action onClick={directionsMenuOpen}>
                             Directions
@@ -60,11 +66,23 @@ function Sidebar(props) {
                 </Offcanvas.Body>
             </Offcanvas>
 
-            <Offcanvas show={showLoc} onHide={locMenuClose}>
+            <Offcanvas show={showSearch} onHide={searchMenuClose}>
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Indigenous AR Locations</Offcanvas.Title>
+                    <Offcanvas.Title>Search</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
+                    <SearchBar map={props.map} /> 
+                </Offcanvas.Body>
+            </Offcanvas>
+
+            <Offcanvas show={showLoc} onHide={locMenuClose}>
+                <Offcanvas.Header closeButton>
+                    <Offcanvas.Title>Locations</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                    <SearchBar map={props.map} />
+
+
                     <ListGroup defaultActiveKey="#link1">
                         {/* <ButtonGroup vertical> */}
                         {/* {console.log(Object.entries(props.locationsData))} */}
@@ -97,15 +115,6 @@ function Sidebar(props) {
                         )}
                         {/* </ButtonGroup> */}
                     </ListGroup>
-                </Offcanvas.Body>
-            </Offcanvas>
-
-            <Offcanvas show={showSearch} onHide={searchMenuClose}>
-                <Offcanvas.Header closeButton>
-                    <Offcanvas.Title>Search</Offcanvas.Title>
-                </Offcanvas.Header>
-                <Offcanvas.Body>
-                    <SearchBar map={props.map} />
                 </Offcanvas.Body>
             </Offcanvas>
 
